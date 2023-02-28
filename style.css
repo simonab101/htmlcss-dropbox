@@ -108,3 +108,39 @@ cursor: pointer;
 .light-blue {
   background-color: #BACEE5;
 }
+
+/* Text */
+.title {
+  font-weight: bold;
+}
+
+.title.medium {
+  font-size: 30px;
+}
+
+.title.small {
+  font-size: 20px;
+}
+
+.text.small {
+  font-size: 11px;
+}
+
+.text.medium {
+  font-size: 12px;
+}
+
+.purple {
+  color: #561C2F;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.blue-link {
+  color: #3A61F8;
+  text-decoration: underline;
+  display: inline-block;
+}
