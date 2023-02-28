@@ -201,3 +201,32 @@ header .button {
   float: right;
   margin-left: 15px;
 }
+
+/*logo*/
+.logo {
+  float: left;
+  margin-right: 15px;
+  width: 100px;
+}
+
+.logo img {
+  width: 100%;
+}
+
+header nav {
+  display: inline-block;
+  width: calc(100% - 115px);
+}
+
+.nav-left {
+  float: left;
+}
+
+.nav-right {
+  float: right;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 15px;
+}
