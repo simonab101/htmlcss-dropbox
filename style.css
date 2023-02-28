@@ -598,3 +598,43 @@ nav ul li {
 .question-title {
   font-weight: bold;
 }
+
+/* footer */
+footer {
+  background-color: black;
+  color: white;
+}
+
+footer .large-width {
+  height: 400px;
+}
+
+footer .clearfix {
+  padding: 80px 0;
+}
+
+.footer-links {
+  float: left;
+  margin-right: 90px;
+}
+
+.footer-links .title {
+  margin-bottom: 15px;
+}
+
+.footer-links li {
+  margin-bottom: 10px;
+}
+
+.footer-links a {
+  color: white;
+}
+
+footer hr {
+  width: 100px;
+}
+
+footer .language-selector {
+  margin: 40px 0;
+  color: gray;
+}
