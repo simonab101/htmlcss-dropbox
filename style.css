@@ -87,3 +87,24 @@ opacity: 0;
 cursor: pointer;
 }
 
+/* distance a float element */
+.element-center {
+  margin: 0 5%;
+}
+
+/* element width */
+
+.large-width {
+  width: 1000px;
+  margin: auto;
+}
+
+.medium-width {
+  width: 800px;
+  margin: auto;
+  padding-top: 70px;
+}
+
+.light-blue {
+  background-color: #BACEE5;
+}
