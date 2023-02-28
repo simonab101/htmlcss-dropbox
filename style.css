@@ -423,3 +423,121 @@ nav ul li {
   margin: 20px 0;
   line-height: 20px;
 }
+
+/*section 3 */
+.business-operations {
+  margin-top: 30px;
+}
+
+.operation {
+  float: left;
+  width: 30%;
+  margin-bottom: 80px;
+}
+
+.operation img {
+  width: 100%;
+}
+
+.operation .title {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+/*section 4 */
+#section-four {
+  height: 300px;
+}
+
+#section-four .title {
+  margin-bottom: 15px;
+}
+
+#section-four .blue-link {
+  margin-bottom: 35px;
+}
+
+.partners-container {
+  width: 100%;
+  margin-bottom: 300px;
+}
+
+.partners {
+  float: left;
+  width: 30%;
+  height: 30vw;
+}
+
+.partner {
+  position: relative;
+  float: left;
+  width: 50%;
+  height: 50%;
+}
+
+.partner:hover {
+  border: 8px solid rgba(255, 255, 255, 0.5);
+}
+
+.partner img {
+  position: absolute;
+  width: 50%;
+  margin: auto;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  filter: invert(100%);
+}
+#partner-designit {
+  background-color: #ADD09E;
+}
+
+#partner-asu {
+  background-color: #561C2F;
+}
+
+#partner-uf {
+  background-color: #4E8FC9;
+}
+
+#partner-topps {
+  background-color: #E2442D;
+}
+
+#partner-wbr {
+  background-color: #BB332B;
+}
+
+#partner-hearst {
+  background-color: #BACEE5;
+}
+
+#partner-lonely {
+  background-color: #1F297C;
+}
+
+#partner-clearchannel {
+  background-color: #F5D850;
+}
+
+#partners-description {
+  float: left;
+  width: 40%;
+  height: 30vw;
+  background-color: #F5F5F5;
+  overflow: auto;
+}
+
+#description-container {
+  padding: 8%;
+}
+
+#partners-description img {
+  width: 25%;
+  margin-bottom: 20px;
+}
+
+#partners-description p {
+  margin: 35px 0;
+}
