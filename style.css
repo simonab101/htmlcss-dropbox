@@ -25,3 +25,65 @@ body {
 hr {
   width: 50px;
 }
+
+input[type="radio"], label {
+  vertical-align: middle;
+}
+
+/* radio custom*/
+.radio-container {
+  display: block;
+  position: relative;
+  padding-left: 20px;
+  margin-bottom: 12px;
+  cursor: pointer;
+}
+
+.radio-custom {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 16px;
+  width: 16px;
+  background-color: white;
+  border: 1px solid #CFCFD2;
+  border-radius: 50%;
+}
+
+.radio-container input:checked ~ .radio-custom {
+  background-color: #3A61F8;
+  border: 1px solid #3A61F8;
+}
+
+/* inner circle */
+.radio-custom:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* circle style  */
+.radio-container .radio-custom:after {
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  margin: auto;
+  width: 55%;
+  height: 55%;
+  border-radius: 50%;
+  background: white;
+}
+
+/* show circle when selected */
+.radio-container input:checked ~ .radio-custom:after {
+display: block;
+}
+
+/* hide the button */
+.radio-container input {
+position: absolute;
+opacity: 0;
+cursor: pointer;
+}
+
