@@ -1,3 +1,5 @@
+
+
 * {
   margin: 0;
   padding: 0;
@@ -77,14 +79,14 @@ input[type="radio"], label {
 
 /* show circle when selected */
 .radio-container input:checked ~ .radio-custom:after {
-display: block;
+ display: block;
 }
 
 /* hide the button */
 .radio-container input {
-position: absolute;
-opacity: 0;
-cursor: pointer;
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
 }
 
 /* distance a float element */
@@ -273,6 +275,7 @@ nav ul li {
 #jumbo-text .button {
   margin-bottom: 8px;
 }
+
 
 /* section 2 */
 #second-section .medium-width{
