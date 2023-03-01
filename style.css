@@ -294,12 +294,17 @@ nav ul li {
 
 .plans {
   margin-top: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: stretch;
+  justify-content: space-between;
 }
 
 .plan {
   float: left;
   border: 1px solid #CFCFD2;
   margin-bottom: 5%;
+  
 }
 
 .plan.long {
